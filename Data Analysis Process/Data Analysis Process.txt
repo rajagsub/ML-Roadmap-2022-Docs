@@ -1,0 +1,55 @@
+Data Analysis Process:
+	• Asking Questions
+		○ Got Data from any sources, What is the problem statement 
+		○ Got data but no insights given;
+			§ What feature will contribute to my analysis?
+			§ What feature are not important for my analysis?
+			§ Which features have a strong Correlation?
+			§ For i need to data pre-processing
+			§ What kind of feature manipulation/engineering is required
+			
+	• Data Wrangling 
+		○ Gathering Data
+			§ Csv files
+			§ API
+			§ Web scrapping
+			§ Databases
+            
+		○ Assessing Data
+			§ No of rows/columns(shape)
+			§ Data type of various columns(info())
+			§ Checking for Missing values(info())
+			§ Check for duplicate data(is_unique())
+			§ Memory Occupied by dataset(info)
+			§ High level mathematical overview of the data (describe)
+            
+		○ Cleaning Data
+			§ Missing Data (e.g Mean,Median....)
+			§ Remove duplicated data(drop_duplicates)
+			§ Incorrect data type (astype)
+            
+	• EDA
+		○ Explore:
+			§ Finding Correlation & Covariance 
+			§ Doing Univariate and multivariate analysis
+			§ Plotting Graphs(data visualization)
+			
+		○ Augment your Data:
+			§ Removing Outliers (Box plots)
+			§ Merging Dataframes
+			§ Adding new column 
+		More or less this is feature engineering. 
+        
+	• Drawing conclusion
+		○ ML Techniques 
+		○ Inferential Statistics 
+		○ Descriptive Statistics on DA role
+			§ Is rohit sharma a better batsman in 2nd innings 
+			§ Does being a female increase your chances of survival?
+			§ Is delhi the most costlyy place for eating out
+            
+	• Communicating Results/Story Telling :- 
+		○ In person
+		○ Reports
+		○ Blog Post 
+		○ PPT's
